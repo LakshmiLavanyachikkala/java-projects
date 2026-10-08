@@ -1,0 +1,33 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            @keyframes mydiv{
+                0%{background-color:yellow;}
+                50%{background-color:blue;}
+                100%{background-color: rgb(125, 217, 20);}
+
+            }
+           
+            .mydiv{
+                width: 100px;
+                height: 100px;
+                border: 1px solid red;
+                position: sticky;
+                background-color: yellow;
+                transform:translateX(100);
+                animation-name: mydiv;
+                animation-duration: 1s;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class = mydiv> HELLO</div>
+    </body>
+    </html>
+
